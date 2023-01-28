@@ -1,0 +1,150 @@
+*{
+background: #000000;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.area-texto{
+    border: none;
+    color: #000000;
+    margin-top: 90px;
+    text-transform: lowercase;
+    margin-left: 180px;
+}
+
+::placeholder{
+     color: #ffffff
+}
+
+.area-texto:focus{
+    outline: none;
+}
+
+.mensaje{
+    width: 400px;
+    height: 820px;
+    left: 1000px;
+    top: 40px;    
+    background: white;
+    background-image: url("imagenes/nuevo-muñeco.png");
+    background-position: top;
+    background-size:350px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    box-shadow: 20px 24px 20px -8px rgba(0, 0, 0, 0.8s);
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 180px;
+}
+
+.boton-desencriptar{
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: #000000;
+    cursor: pointer;
+    height: 67px;
+    width: 328px; 
+    margin-left: 30px; 
+}
+
+.boton-desencriptar:hover{
+ border-color:  #ffffff;
+ width: 350px;
+}
+.boton-desencriptar:active{
+    border-color: aqua;
+}
+
+.boton-encriptar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.boton-encriptar:hover{
+    border-color:  #ffffff;
+    width: 350px;
+   }
+   .boton-encriptar:active{
+        border-color: aqua;
+   }
+
+.copiar{
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 700px;
+    position: absolute;
+    width: 336px;
+    margin-left: 180px;
+}
+
+
+.copiar:hover{
+    border-color:  #ffffff;
+    width: 350px;
+   }
+   .copiar:active{
+        border-color: aqua;
+   }
+
+
+
+.informacion{
+    color: #969696;
+    font-size: 18px;
+    margin-left: 180px;
+}
+
+footer{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px;
+    color: #ffffff;
+}
+
+.logo-linkedin{
+    width: 30px;
+}
+
+
+
+.logo-github{
+    width: 30px;
+}
