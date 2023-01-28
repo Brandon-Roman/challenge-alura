@@ -16,7 +16,7 @@ function validarTexto(){
     if(!validador || validador === 0) {
         alert("Solo son permitidas letras minúsculas y sin acentos")
         location.reload();
-        return true;
+        return false;
     }
 }
 

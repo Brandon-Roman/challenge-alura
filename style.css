@@ -20,7 +20,7 @@ main{
 
 .area-texto{
     border: none;
-    color: #000000;
+    color: #FFFFFF;
     margin-top: 90px;
     text-transform: lowercase;
     margin-left: 180px;
@@ -52,7 +52,6 @@ main{
     margin-top: 20px;
     padding-left: 20px;
     position: absolute;
-    box-shadow: 20px 24px 20px -8px rgba(0, 0, 0, 0.8s);
 }
 
 .mensaje:focus{
@@ -78,15 +77,14 @@ main{
 
 .boton-desencriptar:hover{
  border-color:  #ffffff;
- width: 350px;
 }
 .boton-desencriptar:active{
     border-color: aqua;
 }
 
 .boton-encriptar{
-    background-color: #0a3871;
-    border: 1px solid #0a3871;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
     border-radius: 24px;
     color: white;
     cursor: pointer;
@@ -96,8 +94,8 @@ main{
 
 .boton-encriptar:hover{
     border-color:  #ffffff;
-    width: 350px;
    }
+
    .boton-encriptar:active{
         border-color: aqua;
    }
@@ -118,8 +116,8 @@ main{
 
 .copiar:hover{
     border-color:  #ffffff;
-    width: 350px;
    }
+   
    .copiar:active{
         border-color: aqua;
    }
